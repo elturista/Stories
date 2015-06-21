@@ -19,7 +19,7 @@ padding: 0px;
 .home-create {
 background: url(https://maciejsupertramp.files.wordpress.com/2010/03/img_3338.jpg) no-repeat center center / cover;
 width: 100%;
-height: 921px;
+height: 1000px;
 margin: 0;
 padding-top: 20px;
 }
@@ -30,6 +30,11 @@ font-size: 50px;
 font-weight: 400;
 color: #fff;
 padding-top: 220px;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+outline: 0;
+border: none;
 }
 
 .learn {
@@ -111,18 +116,65 @@ float: left;
 font-size: 2em;
 }
 
+.menu a {
+color: #000;
+}
+
+.menu a:active, a:focus {
+color: #000;
+background: #FFF;
+border: none;
+outline: 0;
+}
+
 #button-close {
 width: 25px;
 height: 25px;
 float: right;
 margin-top: 80px;
 margin-right: 10px;
+cursor: pointer;
 }
 
 #button-menu {
 width: 25px;
 height: 25px;
 float: left;
-margin-top: 60px;
+margin-top: 80px;
 margin-left: 50px;
+cursor: pointer;
+}
+
+.about {
+background: url(https://scontent-fra3-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/10636635_10204345892541171_6930583756858554222_o.jpg) no-repeat center center / cover;
+width: 100%;
+height: 1000px;
+margin: 0;
+padding-top: 20px;
+}
+
+.about h1 {
+text-align: center;
+font-size: 50px;
+font-weight: 400;
+color: #fff;
+padding-top: 180px;
+}
+
+.about-secondary {
+width: 100%;
+height: 350px;
+text-align: center;
+}
+
+.about-secondary h1 {
+padding-top: 100px;
+}
+
+.about-secondary p {
+font-size: 1.3em;
+}
+
+.about-secondary .learn {
+margin-top: 40px;
 }
