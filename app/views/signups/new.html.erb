@@ -1,0 +1,18 @@
+<main>
+  <div class="signups">
+    <div class="signups-text">
+    <h1>Get the latest updates from Stories</h1>
+    <div class="form">
+    <form class="signupform" method="post">
+      <%= form_for(@signup) do |f|  %>  
+      <label>First name</label>
+      <%= f.text_field :firstname %>
+      <label>E-mail</label>
+      <%= f.email_field :email %>
+      <%= f.submit "Join", :class=>"btn btn-default join" %> 
+       <% end %>
+    </form>
+    </div>
+    </div>
+  </div>
+</main>
